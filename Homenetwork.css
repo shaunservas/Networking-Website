@@ -1,0 +1,14 @@
+h1 {color:#fe9122;
+position: relative;
+float:inherit;
+text-align: center;}
+
+body{background-color:aqua;
+font-family:cursive;
+}
+
+b{position: relative;
+float:inherit;
+text-align: center;}
+
+hr {color:#ff1122;}
