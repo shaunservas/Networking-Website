@@ -10,10 +10,20 @@ b{position: relative;
 float:inherit;
 text-align: center;}
 
- .p3{position:relative;
- float:left; width: 20%; text-align: center;margin: 12px;
-border: 2px solid #c9c9c9;}
+ .menu{position:fixed;
+ float:left; width: 20%; text-align: center; margin:12px; margin-left: 0px;
+border: 2px solid #daad86;
+background-color: #98dafc;
+overflow: visible;}
 
-#p2{ border-bottom: 2px solid #9ad3de;}
+#p2{ border-bottom: 3px solid #9ad3de;}
 
-#topmenu{ border-bottom: 2px solid #e3e3e3}
+#topmenu{ border-bottom: 2px solid #c6c6c6}
+
+#submenu1{ border-bottom: 2px solid #c6c6c6;
+padding: 12px;}
+
+#submenu2{border-bottom: 2px solid #c6c6c6;
+padding:12px;}
+
+.content{position:relative; float:right; text-align: center; width:75%; margin: 12px}
