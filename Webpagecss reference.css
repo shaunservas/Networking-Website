@@ -1,0 +1,29 @@
+h1 {color:#8C4646;
+position:relative;
+text-align: center;}
+
+body{background-color:#89bdd3;
+font-family:cursive;
+color: #856046;}
+
+b{position: relative;
+float:inherit;
+text-align: center;}
+
+ .menu{position:fixed;
+ float:left; width: 20%; text-align: center; margin:12px; margin-left: 0px;
+border: 2px solid #daad86;
+background-color: #98dafc;
+overflow: visible;}
+
+#p2{ border-bottom: 3px solid #9ad3de;}
+
+#topmenu{ border-bottom: 2px solid #c6c6c6}
+
+#submenu1{ border-bottom: 2px solid #c6c6c6;
+padding: 12px;}
+
+#submenu2{border-bottom: 2px solid #c6c6c6;
+padding:12px;}
+
+.content{position:relative; float:right; text-align: center; width:75%; margin: 12px}

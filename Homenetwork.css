@@ -1,29 +1,101 @@
-h1 {color:#8C4646;
+/*css mobile first*/
+h1 {
+  color:#8C4646;
 position:relative;
-text-align: center;}
+text-align: center;
+padding-bottom: 2px;
+}
 
-body{background-color:#89bdd3;
-font-family:cursive;
-color: #856046;}
+body
+{
+  background-color:#89bdd3;
+font-family: sans-serif;
+color: #3b3a3a;
+}
 
-b{position: relative;
-float:inherit;
-text-align: center;}
+.menu
+{
+   position:relative;
+border:2px solid #daad86;
+background-color: #98dafc;
+width:90%; height:50px;
+}
 
- .menu{position:fixed;
- float:left; width: 20%; text-align: center; margin:12px; margin-left: 0px;
+.menu2
+{
+position:fixed;
+float:left; width: 20%; margin:12px; margin-left: 0px;
 border: 2px solid #daad86;
 background-color: #98dafc;
-overflow: visible;}
+overflow: visible;
+visibility:hidden;
+}
 
-#p2{ border-bottom: 3px solid #9ad3de;}
+div.menu ul {
+  float: left;
+display: grid;
+  text-align: center; margin: relative;
+}
 
-#topmenu{ border-bottom: 2px solid #c6c6c6}
+div.menu2 ul {
+  float:center;
+}
+#Author
+{
+ border-bottom: 3px solid #9ad3de;
+}
 
-#submenu1{ border-bottom: 2px solid #c6c6c6;
-padding: 12px;}
+#topmenu2
+{
+border-bottom: 2px solid #c6c6c6;
+}
 
-#submenu2{border-bottom: 2px solid #c6c6c6;
-padding:12px;}
+#submenu3
+{
+border-bottom: 2px solid #c6c6c6;
+padding: 12px; visibility:hidden;
+}
 
-.content{position:relative; float:right; text-align: center; width:75%; margin: 12px}
+
+#submenu4
+{
+border-bottom: 2px solid #c6c6c6;
+padding:12px;visibility: hidden;
+}
+
+.content
+{
+position:relative; float: center; text-align: center; margin:5px;
+}
+
+/*css screen > 800px */
+
+@media (min-width:800px){
+
+.menu2
+{
+position:fixed;
+float:left; width: 20%; text-align: center; margin:12px; margin-left: 0px;
+border: 2px solid #daad86;
+background-color: #98dafc;
+overflow: visible;
+visibility:visible;
+}
+
+#submenu3
+{
+  visibility: visible;
+}
+
+#submenu4
+{
+  visibility: visible;
+}
+.menu
+{
+  visibility: hidden;
+}
+.content
+{
+  position:relative; float:right; text-align: center; width:75%; margin: 12px; margin-right: 2px}
+ }
