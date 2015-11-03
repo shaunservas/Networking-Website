@@ -13,89 +13,60 @@ font-family: sans-serif;
 color: #3b3a3a;
 }
 
-.menu
+#submenu
 {
-   position:relative;
-border:2px solid #daad86;
-background-color: #98dafc;
-width:90%; height:50px;
-}
-
-.menu2
-{
-position:fixed;
-float:left; width: 20%; margin:12px; margin-left: 0px;
+float:center;
+text-align: center;
 border: 2px solid #daad86;
 background-color: #98dafc;
-overflow: visible;
-visibility:hidden;
+border-bottom: 1px solid #daad86;
+border-top: 1px solid #daad86;
 }
 
-div.menu ul {
-  float: left;
-display: grid;
-  text-align: center; margin: relative;
-}
-
-div.menu2 ul {
+#topmenu
+{
   float:center;
+  text-align: center;
+  border: 2px solid #daad86;
+  background-color: #98dafc;
+  border-bottom: 1px solid #daad86;
+}
+#submenu2
+{
+float:center;
+text-align: center;
+border: 2px solid #daad86;
+background-color: #98dafc;
+border-top: 1px solid #daad86;
 }
 #Author
 {
  border-bottom: 3px solid #9ad3de;
 }
 
-#topmenu2
-{
-border-bottom: 2px solid #c6c6c6;
-}
 
-#submenu3
-{
-border-bottom: 2px solid #c6c6c6;
-padding: 12px; visibility:hidden;
-}
-
-
-#submenu4
-{
-border-bottom: 2px solid #c6c6c6;
-padding:12px;visibility: hidden;
-}
 
 .content
 {
-position:relative; float: center; text-align: center; margin:5px;
+position:relative; text-align: center; margin:5px;
 }
 
 /*css screen > 800px */
 
 @media (min-width:800px){
 
-.menu2
-{
-position:fixed;
-float:left; width: 20%; text-align: center; margin:12px; margin-left: 0px;
-border: 2px solid #daad86;
-background-color: #98dafc;
-overflow: visible;
-visibility:visible;
-}
-
-#submenu3
-{
-  visibility: visible;
-}
-
-#submenu4
-{
-  visibility: visible;
-}
 .menu
 {
-  visibility: hidden;
+float: left; margin-top: 10px;
 }
+
+ul
+{
+width 90%; margin: 0 auto; padding: 20px;
+}
+
 .content
 {
   position:relative; float:right; text-align: center; width:75%; margin: 12px; margin-right: 2px}
  }
+}
