@@ -38,10 +38,19 @@ text-align: center;
 border: 2px solid #daad86;
 background-color: #98dafc;
 border-top: 1px solid #daad86;
+border-bottom: 1px solid #daad86;
 }
 #Author
 {
  border-bottom: 3px solid #9ad3de;
+}
+#submenu3
+{
+  float:center;
+  text-align: center;
+  border: 2px solid #daad86;
+  background-color: #98dafc;
+  border-top: 1px solid #daad86;
 }
 
 
@@ -49,6 +58,11 @@ border-top: 1px solid #daad86;
 .content
 {
 position:relative; text-align: center; margin:5px;
+}
+
+#sitemap
+{
+  position:relative;
 }
 
 /*css screen > 800px */
@@ -68,5 +82,12 @@ width 90%; margin: 0 auto; padding: 20px;
 .content
 {
   position:relative; float:right; text-align: center; width:75%; margin: 12px; margin-right: 2px}
- }
+}
+#sitemap
+{
+  position: relative; text-align: center; bottom: 0px; width 100%; float:left; : 25px;
+}
+#pipe
+{
+  text-align: center;
 }
