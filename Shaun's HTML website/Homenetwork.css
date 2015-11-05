@@ -1,0 +1,91 @@
+/*css mobile first*/
+h1 {
+  color:#8C4646;
+position:relative;
+text-align: center;
+padding-bottom: 2px;
+}
+
+body
+{
+  background-color:#89bdd3;
+font-family: sans-serif;
+color: #3b3a3a;
+}
+
+#submenu
+{
+float:center;
+text-align: center;
+border: 2px solid #daad86;
+background-color: #98dafc;
+border-bottom: 1px solid #daad86;
+border-top: 1px solid #daad86;
+}
+
+#topmenu
+{
+  float:center;
+  text-align: center;
+  border: 2px solid #daad86;
+  background-color: #98dafc;
+  border-bottom: 1px solid #daad86;
+}
+#submenu2
+{
+float:center;
+text-align: center;
+border: 2px solid #daad86;
+background-color: #98dafc;
+border-top: 1px solid #daad86;
+border-bottom: 1px solid #daad86;
+}
+#Author
+{
+ border-bottom: 3px solid #9ad3de;
+}
+#submenu3
+{
+  float:center;
+  text-align: center;
+  border: 2px solid #daad86;
+  background-color: #98dafc;
+  border-top: 1px solid #daad86;
+}
+
+.content
+{
+position:relative; text-align: center; margin:5px;
+}
+
+#sitemap
+{
+  position:relative;
+}
+
+/*css screen > 800px */
+
+@media (min-width:800px){
+
+.menu
+{
+float: left; margin-top: 10px;
+}
+
+ul
+{
+width 90%; margin: 0 auto; padding: 20px;
+}
+
+.content
+{
+  position:relative; float:right; text-align: center; width:75%; margin: 12px; margin-right: 2px}
+}
+#sitemap
+{
+  position: relative; text-align: center; bottom: 0px; width 100%; float:left; : 25px;
+}
+#pipe
+{
+  text-align: center;
+}
